@@ -1,138 +1,69 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-size: 14px;
-  line-height: 20px;
-  color: #020055;
-}
-h1 {
-  width: 255px;
-  margin: 0 auto 8px;
-  font-family: "Georgia", serif;
-  text-align: center;
-  font-weight: normal;
-  font-size: 56px;
-  line-height: 64px;
-}
-#demo {
-background: #CECECE;
-background: -moz-linear-gradient(top, #CECECE 0%, #7A89F1 76%, #545FA7 100%);
-background: -webkit-linear-gradient(top, #CECECE 0%, #7A89F1 76%, #545FA7 100%);
-background: linear-gradient(to bottom, #CECECE 0%, #7A89F1 76%, #545FA7 100%);
-}
-h2 {
-  border-bottom: 2px solid #191970;
-  padding-bottom: 12px;
-}
-#demotext {
+ body {
+            padding-left: 3em;
+            font-family: "Comic Sans MS", cursive, sans-serif;
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-size: 20px;
+letter-spacing: 0px;
+word-spacing: -0.4px;
 color: #FFFFFF;
-background: #edde9c;
-text-shadow: 0 1px 0px #378ab4, 1px 0 0px #5dabcd, 1px 2px 1px #378ab4, 2px 1px 1px #5dabcd, 2px 3px 2px #378ab4, 3px 2px 2px #5dabcd, 3px 4px 2px #378ab4, 4px 3px 3px #5dabcd, 4px 5px 3px #378ab4, 5px 4px 2px #5dabcd, 5px 6px 2px #378ab4, 6px 5px 2px #5dabcd, 6px 7px 1px #378ab4, 7px 6px 1px #5dabcd, 7px 8px 0px #378ab4, 8px 7px 0px #5dabcd;
-color: #bc2e1e;
-background: #FFFFFF;
+font-weight: normal;
+text-decoration: box-shadow;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+background: #000 url(Ust-Ilimsk_6043.jpg);
 }
 
-.container {
-  width: 510px;
-  margin: 0 auto;
-  padding: 0 20px;
+#borderDemo {
+border: 10px outset #B7044C;
+color: red;
+border-radius: 0px 0px 40px 0px;
 }
 
-.site-header {
-  min-width: 550px;
-  height: 186px;
-  margin-bottom: 70px;
-  padding-top: 30px;
-  background: #ABB5E8;
-  background-size: cover;
-  color: #4D4789;
-}
+.h1 {
+    font-size: 20px;
+    line-height: 40px;
+    color: #FFFFFF;
+    padding: 0 10px;
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+    background: rgb(37, 219, 237);
+    }
+ul.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 1em;
+    right: 2em;
+    width: 15em;
+          }
+h1 {
+    font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif 
+    
+ }
+    ul.navbar {
+        background: #957b8d;
+        margin: 0.5em 0;
+        padding: 0.4em;
+        border-right: 5em white;
+        -p-box-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px, 0px 0px 50px -1px rgba(0,0,0,0); 
+box-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px, 0px 0px 50px -1px rgba(0,0,0,0);
+               }
+   
+    #demotext {
+color: #FFFFFF;
+background: #333333;
+text-shadow: 0 -1px 4px #FFF, 0 -2px 20px #ff0, 0 -10px 20px #ff8000, 0 -18px 70px #F00;
+              }
+              
+ul.navbar a {
+    text-decoration: none;
+    a:link {
+        color: #FFFFFF;
+        border-bottom: 1px solid;
+    }
+    a:visited {
+        color: #FFFFFF;
+        border-bottom: 1px solid;
+    }
 
-.site-header p {
-  width: 255px;
-  margin: 0 auto 26px;
-  text-align: center;
-  font-size: 16px;
-  line-height: 24px; 
-}
-
-.site-header img {
-  display: block;
-  margin: 0 auto;
-}
-
-.features {
-  width: 510px;
-  margin: 0 auto 30px;
-  padding: 0 20px;
-}
-
-.features p {
-  display: inline-block;
-  vertical-align: top;
-  width: 30%;
-  margin: 0 5px;
-  background-repeat: no-repeat;
-  background-position: center top;
-  text-align: center;
-}
-
-.advantages {
-  width: 510px;
-  margin: 0 auto 40px;
-  padding: 0 20px;
-}
-
-.advantages-list {
-  padding: 0;
-  list-style: none;  
-}
-
-.advantages-item {
-  margin-bottom: 15px;
-  padding-left: 20px;
-  border-left: 20px solid #6E85FF;
-  color: #191970;
-}
-
-.standard {
-  border-color: #6E85FF;
-  color: #191970;
-}
-
-
-.vip {
-  border-color: #6E85FF;
-  color: #191970;
-}
-table{border-spacing:0.5rem;border-collapse:collapse;border-collapse:collapse;border-spacing:0}
-table td{padding:2px}
-table,th,td{border:1px solid black;text-decoration:none;vertical-align:middle}
-tfoot{background-color:rgba(0,0,0,0.2);font-weight:bold}
-caption{text-align:left;font-style:italic;font-weight:bold;padding-top:10px}
-thead{background-color:rgba(255,255,255,0.5);font-weight:bold}
-table.demo{margin:auto;max-width:600px}
-table.demo,table.demo td{border:3px dashed #999;padding:4px 10px;text-align:left}
-.demo p{margin:0}
-.black{color:black}
-.blue{color:blue}
-.red{color:red}
-.green{color:blue}
-.candyPinkBack{background: #f9bbb7;font-weight:bold}
-.textImage{background:#e7e7e7;padding:5px 10px;text-align:center;border:1px solid #999;display:block;width:80%;margin:auto}
-
-.site-footer {
-  min-width: 550px;
-  background-color: #191970;
-  color: #E2E7FF;
-}
-
-.site-footer .container {
-  text-align: center;
-}
-
-.site-footer p {
-  display: inline-block;
-  vertical-align: middle;
-  padding: 0 20px;
-}
