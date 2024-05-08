@@ -49,15 +49,23 @@ tbody tr:nth-child(even) {
 
 h1 { 
    font-size: 24px; 
-   color: blue; 
+   color: #D71868; 
 } 
-p { 
-    font-size: 16px; 
-    color: red; 
+h2 { 
+   font-size: 24px; 
+   color: #D71868; 
+}
+h3 { 
+   font-size: 24px; 
+   color: #D71868; 
+}
+p{ 
+    font-size: 36px; 
+    color: #EB5284; 
 }
 
 body {
-  margin: 50px !important;
+  margin: 15px !important;
 }
 
 @media screen and (max-height: 350px) {
@@ -148,7 +156,4 @@ in the head of your html file add this resources
       4px -8px 0 white;
     transform: rotate(45deg);
   }
-   table{
-   border-radius="5"
-   }
 }
