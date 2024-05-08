@@ -157,3 +157,13 @@ in the head of your html file add this resources
     transform: rotate(45deg);
   }
 }
+table
+{
+border 5px;  
+border-radius:3px
+}
+table th,table td
+{
+border 15px;  
+border-radius:3px
+}
