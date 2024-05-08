@@ -159,8 +159,8 @@ in the head of your html file add this resources
 }
 table
 {
-border 5px;  
-border-radius:3px
+border 50px;  
+border-radius:30px
 }
 table th,table td
 {
