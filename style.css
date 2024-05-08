@@ -148,4 +148,7 @@ in the head of your html file add this resources
       4px -8px 0 white;
     transform: rotate(45deg);
   }
+   table{
+   border-radius="5"
+   }
 }
