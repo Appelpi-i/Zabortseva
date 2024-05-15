@@ -130,6 +130,9 @@ table { margin:0 auto; }
     </head>
     <body>
       <form action="index.html" method="post">
+          
+          <h2>Your basic info</h2>
+          
           <label for="name">Имя</label>
           <input type="text" id="name" name="student_name">
 
@@ -139,10 +142,17 @@ table { margin:0 auto; }
           <label for="password">Пароль</label>
           <input type="password" id="password" name="student_password">
 
-          <label for="bio">Биография</label>
+          <label>Age:</label>
+          <input type="radio" id="до_16" value="до_16" name="user_age"><label for="до_16" class="light">до 16</label><br>
+          <input type="radio" id="больше_16" value="больше_16" name="user_age"><label for="больше_16" class="light">больше 16</label>
+
+          <h2>Твой профиль</h2>
+          
+          <label for="bio">Биогрфия</label>
           <textarea id="bio" name="student_bio"></textarea>
 
-          <button type="submit">Submit</button>
+        <button type="submit">Submit</button>
+	 <button type="reset">Reset</button>
       </form>
     </body>
 </html>
